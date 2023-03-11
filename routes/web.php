@@ -40,7 +40,7 @@ Route::get('ping', function () {
     dd($response);
 });
 
-
+git branch -M main
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 Route::post('posts/{post:slug}/comments', [PostCommentController::class, 'store']);
 
